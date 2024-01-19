@@ -1,0 +1,6 @@
+kisa=input('kısa kenar uzunlugunu giriniz:')
+uzun=input('uzun kenar uzunlugunu giriniz:')
+alan=int(kisa)*int(uzun)
+cevre=2*(int(kisa)+int(uzun))
+print("dikdortgenin alanı:{0}".format(alan))
+print("dikdortgenin cevresi:{0}".format(cevre))
